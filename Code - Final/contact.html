@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ça Croustille - Plats Artisanaux a Emporter</title>
+    <link rel="stylesheet" href="contact-style.css">
+    <link rel="shortcut icon" href="img/logo_ca_croustille.png">
+</head>
+<body>
+    <header class="header">
+        <div class="topbar">
+            <div class="topbar-left-icons">
+                <div class="logo-cc">
+                    <a href="index.html"><img src="img/logo_ca_croustille.png" alt="Accueil" class="logo-ca-croustille-topbar"></a>
+                </div>
+                <div class="elements-topbar">
+                    <a href="carte.html">Notre carte</a><span></span>                  
+                    <a href="actus.html">Nouveautés</a><span></span>                  
+                    <a href="rotisserie.html">Dimanche Rotisserie</a><span></span>
+                    <a href="contact.html" id="menu_deroulant_contact">Contact</a> 
+                </div>
+                <img src="img/menu.png" class="menu_deroulant">   
+            </div>
+            <div class="reseau-nav">       
+                    <a href="contact.html" id="contact">Contact</a>
+                <div class="logo-facebook">
+                    <a href="https://www.facebook.com/Croustillant974" target="_blank"><img src="img/facebook.png" id="facebook-icon"></a>
+                </div>
+            </div>                     
+        </div>
+        <nav>
+            <div class="block-numero">
+                <p>Pour commander appelez le <span>0692 951 951*</span></p>
+            </div>             
+        </nav>
+    </header>
+    <section>
+        <div class="block-contact">
+            <div class="iframe-google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.7346085447325!2d55.4265810239817!3d-20.882744642117668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21827fadd7dd2355%3A0x47cc7d251ab207e5!2s%C3%87a%20Croustille!5e0!3m2!1sfr!2sfr!4v1669390267833!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="infos-contact">
+                <div class="telephone-contact">
+                    <img src="img/telephone.png">
+                    <p>0692 951 951*</p>
+                </div> 
+                <div class="horaires-contact">
+                    <h2>Horaires d'ouverture:</h2>
+                </div>
+                <ul>
+                    <li>Du mercredi au samedi</li>
+                    <li><span>-17h30 à 21h</span></li>
+                    <li>Dimanche</li>
+                    <li><span>-11h30 à 13h30</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="mention-rights">
+                <ul>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            <div class="rights-reserved">
+                <p>© 2022 Ca Croustille. All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="reseaux">
+                <h2>Suivez nous</h2>
+                <a href="https://www.facebook.com/Croustillant974" target="_blank"><img src="img/facebook.png" id="facebook"></a>
+            </div>
+        </footer>
+            <script>
+                const menuHamburger = document.querySelector(".menu_deroulant")
+                const navLinks = document.querySelector(".elements-topbar")
+        
+                menuHamburger.addEventListener('click',()=>{
+                navLinks.classList.toggle('mobile-menu')
+
+                })
+            </script>
+       </body>
+    </html>
+    

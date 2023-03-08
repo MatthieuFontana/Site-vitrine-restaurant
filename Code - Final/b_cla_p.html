@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ça Croustille - Plats Artisanaux a Emporter</title>
+    <link rel="stylesheet" href="carte-style.css">
+    <link rel="shortcut icon" href="img/logo_ca_croustille.png">
+</head>
+<body>
+    <header class="header">
+        <div class="topbar">
+            <div class="topbar-left-icons">
+                <div class="logo-cc">
+                    <a href="index.html"><img src="img/logo_ca_croustille.png" alt="Accueil" class="logo-ca-croustille-topbar"></a>
+                </div>
+                <div class="elements-topbar">
+                    <a href="carte.html">Notre carte</a><span></span>                  
+                    <a href="actus.html">nouveautés</a><span></span>                  
+                    <a href="rotisserie.html">Dimanche Rotisserie</a><span></span>    
+                </div>
+                <img src="img/menu.png" class="menu_deroulant">   
+            </div>
+            <div class="reseau-nav">       
+                    <a href="contact.html" id="contact">Contact</a>
+                <div class="logo-facebook">
+                    <a href="https://www.facebook.com/Croustillant974" target="_blank"><img src="img/facebook.png" id="facebook-icon"></a>
+                </div>
+            </div>                     
+        </div>
+        <nav class="navbar">
+            <div class="top-menu-item">
+                <ul class="menu-item">
+                    <li class="nav-menu-item">
+                        <a href="burgers.html" class="nav-item">Nos Crousti' burgers 🍔</a>
+                    </li>                   
+                    <li class="nav-menu-item">
+                        <a href="croustillants.html" class="nav-item">Nos croustillants 🧆</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="accompagnements.html" class="nav-item">Nos Accompagnements 🍟</a> 
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="salades.html" class="nav-item">Nos Salades 🥗</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="desserts.html" class="nav-item">Nos Desserts🍪</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="boissons.html" class="nav-item"> Nos boissons 🍺🥤</a>
+                    </li>   
+                </ul>           
+            </div>          
+        </nav>
+    </header>
+    <div class="block-item">
+        <div class="block-item-items">
+                <img src="img/burgercc.jpg" class="image-item">
+        <div class="block-text">
+            <div class="title-item">
+                    <h2>Le Classique Poulet <span>10,00€</span></h2>
+            </div>
+            <div class="text-item">
+                <h3>Composition</h3>
+                <p>Pain artisanal, poulet croustillant, double cheddar salade, tomates, oignons, ketchup, sauce tartare.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="formule-grosse-dalle">
+        <img src="img/laformule1.png">
+</div>
+<div class="formule-ptite-dalle">
+        <img src="img/laformule2.png">
+</div>
+<div class="block-color-ptite-dalle">
+    <div class="phrase-telling-black">
+        <p>Des Recettes Hyper <span>Croustillante !</span></p>
+    </div>
+</div>
+<footer class="footer">
+    <div class="mention-rights">
+            <ul>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        <div class="rights-reserved">
+            <p>© 2022 Ca Croustille. All Rights Reserved.</p>
+        </div>
+    </div>
+    <div class="reseaux">
+            <h2>Suivez nous</h2>
+            <a href="https://www.facebook.com/Croustillant974" target="_blank"><img src="img/facebook.png" id="facebook"></a>
+        </div>
+    </footer>
+        <script>
+            const menuHamburger = document.querySelector(".menu_deroulant")
+            const navLinks = document.querySelector(".elements-topbar")
+
+            menuHamburger.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+            })
+        </script>
+   </body>
+</html>
