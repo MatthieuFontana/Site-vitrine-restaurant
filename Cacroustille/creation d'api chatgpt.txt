@@ -1,0 +1,7 @@
+Création d'un site vitrine pour un restaurant.
+Le site est un projet personnel réalisé à partir de maquettes en Figma.
+Réalisé en HTML+CSS+JavaScript, avec l'outil Photoshop pour les images des boissons / des logos de la marque et les formules.
+Le site à ensuite été rendu responsive et continue d'être mis à jour en fonction des offres temporaires du restaurant.
+
+Création d'un site de prévions météo en React avec l'API d'openweather.
+Le site est un projet personnel réalisé en HTML+CSS+JavaScript.

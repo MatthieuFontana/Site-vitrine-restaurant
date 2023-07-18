@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500;600;700&display=swap');
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins',sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    transition: color .5s;
+}
+
+.topbar a:hover {
+    color: #BBBBBB;
+    cursor: pointer;
+}
+
+.topbar-left-icons {
+    display: flex;
+    text-align: center;
+}
+
+.elements-topbar {
+    text-transform: uppercase;
+    padding-left: 25px;
+    font-weight: 600;
+    display: list-item;
+    align-items: center;
+    display: flex;
+}
+.elements-topbar span{
+    padding-left: 20px;   
+}
+
+#facebook-icon {
+    margin-top: 2px;
+    height: 22px;
+    margin-right: 30px;
+}
+
+.numero-telephone-site {
+    align-items: center;
+    display: flex;
+}
+
+#numero {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+#telephone-image {
+    width: 25px;
+    height: 25px;
+}
+
+#slogan {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 0.950rem;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+#contact {
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+.logo-ca-croustille-topbar {
+    margin-left: 5px;
+    height: 70px;
+    width: 70px;
+}
+
+.topbar {
+    border-bottom: 1px solid;
+    background-color: #18171C;
+    justify-content: space-between;
+    display: flex;
+    font-weight: 500;
+    height: 70px;
+}
+
+.reseau-nav {
+    align-items: center;
+    display: flex; 
+}
+
+#panier-icon:hover {
+    filter: brightness(85%);
+    transition: color .3s;
+}
+
+nav {
+    box-shadow: 0px 2px 2px #2a2a2a;
+    width: 100%;
+    background-color: #f3f3f3;
+    font-weight: 500;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #4a4a4a;
+}
+
+.navigation {
+    font-size: 1.4rem;
+    color: #fff;
+    width: 100%;
+    background-color: #18171C;
+    font-weight: 500;
+    text-align: center;
+}
+
+.block-numero {
+    align-items: center;
+    padding: 1px;
+}
+
+.nav-item {
+    color: #1A1A1A;
+    font-weight: 600;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.top-menu-item {
+    display:contents;
+    align-items: center;
+    padding: 12px;
+}
+
+.menu-item{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu-item{
+    display: inline-block;
+}
+
+.footer {
+    color: #fff;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    color: #919191;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    transition: .3s;
+    color: #BBBBBB;
+}
+
+.mention-rights {
+    padding: 55px;
+}
+
+.reseaux {
+    padding: 50px;
+}
+
+.reseaux h2 {
+    text-transform: uppercase;
+}
+
+.reseaux img {
+    margin-left: 10px;
+    height: 25px;
+}
+
+.reseaux img:hover {
+    filter: opacity(80%);
+}
+
+/*--------ROTISSERIE---------*/
+
+.rotisserie-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #1A1A1A;
+}
+
+.rotisserie-title p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #fff;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 2.5rem;
+}
+
+.indicatif-rotisserie {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    background-color: #1A1A1A;
+}
+
+.indicatif-rotisserie p{
+    color: #fff;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.title-rotisserie {
+    justify-content: center;
+    display: flex;
+    background-color: #1A1A1A;
+    height: 110px;
+    padding-top: 15px;
+}
+
+.title-rotisserie img {
+    margin-top: 5px;
+    height: 100px;
+}
+
+.title-rotisserie p {
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.title-rotisserie p span {
+    font-size: 2.5rem;
+    margin-left: 50px;
+    font-weight: 500;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.image-rotisserie {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image-sarcive {
+    display: inline-block;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.image-poulet {
+    display: inline-block;
+    background-size: cover;
+    height: 680px;
+    width: 600px;
+}
+
+.text-rotisserie {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.text-rotisserie p {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 250px;
+    transition: 0.5s;
+    text-shadow: #18171C 2px;
+    background-color: rgb(37, 37, 37, .4);
+    border: solid 1px #fff;
+}
+
+.image-sarcive:hover .text-rotisserie{
+    transition: 1s;
+    opacity: 1;
+    cursor: default;
+}
+
+.image-poulet:hover .text-rotisserie{
+    transition: 1s;
+    opacity: 1;
+    cursor: default;
+}
+
+.image-sarcive img {
+    float: left;
+    width: 600px;
+    margin: 0;
+    border-radius: 5px 0px 0px 5px;
+    border-right: solid 1px #fff;
+    transition: transform 0.2s;
+}
+
+.image-poulet img {
+    float: left;
+    width: 600px;
+    margin: 0;
+    border-radius: 5px 0px 0px 5px;
+    border-right: solid 1px #fff;
+    transition: transform 0.2s;
+}
+
+.elements-img-rotisserie {
+    background-color: #18171C;
+    display: flex;
+    justify-content: center;
+}
+
+.grille-rotisseries {
+    background-color: #1A1A1A;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid;
+    color: #fff;
+}
+
+.grille-rotisseries img {
+    border: 5px solid;
+    color: #fff;
+    margin-bottom: 40px;
+    height: 350px;
+    width: 350px;
+}
+
+.sarcive-roti {
+    padding: 30px;
+}
+
+.poulet-roti {
+    padding: 30px;
+}
+
+.text-item h3 {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #1A1A1A;
+    font-size: 1.2rem;
+    padding: 3px 5px 3px 5px;
+    font-weight: 600;
+    transform:rotate(-5deg);
+    margin: 0;
+}
+
+.text-item p {
+    color: #fff;
+    font-weight: 600;
+    max-width: 380px;
+}
+
+#menu_deroulant_contact{
+    display: none;
+}
+
+.menu_deroulant {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px; 
+    right: 15px;  
+}
+
+/*----------MEDIA--------------*/
+
+@media screen and (max-width: 715px) {
+
+    .logo-cc {
+        height: 60px;
+    }
+
+    .logo-cc img {
+        margin-top: 3px;
+        
+    }
+
+    .reseau-nav #contact {
+        margin: 0;
+        margin-bottom: 0px;
+    }
+
+    #contact {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #18171C;
+        background-color: #f3f3f3;
+        padding: 20px 5px 20px 5px;
+    }
+
+    .reseaux {
+        margin-right: 50px;
+    }
+
+    .logo-facebook {
+        display: none;
+    }
+
+    #facebook-icon {
+        margin-right: 15px;
+        height: 14.6px;
+        width: 8.6px;
+    }
+
+    .topbar {
+        display: flex;
+        height: 55px;
+        align-items: center;
+    }
+
+    .logo-ca-croustille-topbar {
+        margin-top: 6px;
+        height: 55px;
+        width: 55px;
+    }
+
+    .reseau-nav {
+        font-size: 0.6rem;
+        margin-top: 5px;
+    }
+
+    #contact {
+        font-size: 0.9rem;
+        margin-right: 8px;
+        margin-left: 4px;
+    }
+
+    .elements-topbar{
+        display: flex;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+
+    .elements-topbar span{
+        padding-left: 10px;   
+    }
+    
+    .top-menu-item {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-item {
+        font-size: 0.8rem;
+    }
+
+    .first-title h1 {
+        font-size: 1.7rem;
+    }
+
+    .second-title-fait-maison h2 , .second-title-classic-fait-maison h2 , .second-title-marmaille-fait-maison h2 {
+        font-size: 0.950rem;
+        position: relative;
+        bottom: 20px; left: 100px;
+        padding: 0px 10px;
+    }  
+
+    .block-numero {
+        font-size: 1.1rem;
+    }
+    
+    .title-rotisserie img {
+        margin-top: 5px;
+        height: 80px;
+    }
+    
+    .title-rotisserie p {
+        color: #fff;
+        font-size: 0.9rem;
+        margin: 10px;
+        font-weight: 500;
+    }
+    
+    .title-rotisserie p span {
+        margin-right: 25px;
+        font-size: 2.4rem;
+        font-weight: 500;
+        font-family: 'Pattaya', sans-serif;
+    }
+
+    .image-rotisserie {
+        display: block;
+        max-width: 400px;
+        cursor: pointer;
+    }
+    
+    .image-sarcive {
+        height: 400px;
+        width: 100%;
+    }
+    
+    .image-poulet {
+        height: 400px;
+        width: 100%;
+    }
+    
+    .text-rotisserie {
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+    }
+    
+    .text-rotisserie p {
+        padding: 15px;
+        color: rgb(255, 255, 255);
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 0;
+        margin-top: 110px;
+        transition: 0.5s;
+        text-shadow: #18171C 2px;
+        background-color: rgb(37, 37, 37, .4);
+        border: solid 1px #fff;
+    }
+    
+    .image-sarcive:hover .text-rotisserie{
+        opacity: 1;
+        cursor: default;
+    }
+    
+    .image-poulet:hover .text-rotisserie{
+        transition: 0.5s;
+        opacity: 1;
+        cursor: default;
+    }
+    
+    .image-sarcive img {
+        float: left;
+        width: 200px;
+        margin: 0;
+        border-radius: 5px 0px 0px 5px;
+        border-right: solid 1px #fff;
+        transition: transform 0.2s;
+    }
+    
+    .image-poulet img {
+        float: left;
+        width: 200px;
+        margin: 0;
+        border-radius: 5px 0px 0px 5px;
+        border-right: solid 1px #fff;
+        transition: transform 0.2s;
+    }
+    
+    .elements-img-rotisserie {
+        background-color: #18171C;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 455px){
+
+    .menu_deroulant{
+        display: block;
+        z-index: 2;
+        position: fixed;
+    }
+    #menu_deroulant_contact{
+        display: block;
+    }
+    .elements-topbar{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-image: url(img/back_menu.jpg);
+        width: 100%;
+        height: 101vh;
+        display: flex;
+        justify-content: center;
+        margin-left: -200%;
+        transition: all 0.5s ease;
+        
+        
+    }
+    .mobile-menu{
+        margin-left: 0;
+        padding-left: 0;
+        z-index: 1; 
+        position: fixed;
+
+    }
+
+    .elements-topbar a{
+        margin: 25px 0;
+        font-size: 1.5em;
+        color: white;
+        font-weight: 500;
+
+    }
+
+    #contact{
+        display: none;
+    }
+    
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
